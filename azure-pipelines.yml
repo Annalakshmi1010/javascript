@@ -22,7 +22,7 @@ stages:
     - script: |
          npm install
          npm build
-         displayName: 'npm install, build and test'
+      displayName: 'npm install, build and test'
 
     - task: ArchiveFiles@2
       displayName: 'Archive files'
