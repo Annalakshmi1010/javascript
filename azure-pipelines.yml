@@ -43,7 +43,7 @@ stages:
     pool:
       vmImage: 'Ubuntu-16.04'
     environment:
-      name: <environment name>
+      name: azvirtualmachine
       resourceType: VirtualMachine
     strategy:
       runOnce:
